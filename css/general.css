@@ -30,7 +30,10 @@ Paragraph Default: 1.6
 - Tints: #fdf2e9
 - Shades: #cf711f
 - Accents: 
-- Greys: #555, #333
+- Greys:
+ #555, 
+ #333, 
+ #6f6f6f lightest grey allowed on #fdf2e9
 
 --- 03 SHADOWS
 
@@ -171,6 +174,7 @@ body {
 
 .container {
   /* standard container width or 1140px */
+  /* 1140px */
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
